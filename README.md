@@ -9,7 +9,7 @@
 
 The "Kiezbox 2.0" is a pilot project under the "Gemeinsam Digital: Berlin" strategy, aiming to prototype an alternative, self-sufficient communication network for crisis situations. The _Kiezbox Core_ module differntiates in two modes:
 - In **emergency mode**, when electricity fails, _the Kiezbox Core_ creates an independent emergency Wi-Fi network using multiple Kiezbox Cores in a mesh network that allows citizens to communicate with critical infrastructure operators, such as sending text-based emergency messages to a nearby fire department.
-- In **normal mode**, the _Kiezbox Core_ uses an additional _sensor module_ to collect environmental data such as temeprature, humidity and noise and transmits this microclimate Kiez-based data via it's own LoRaWAN mesh to a web-based info portal, where informations are accessible to the public.
+- In **normal mode**, the _Kiezbox Core_ uses an additional _sensor module_ to collect environmental data such as temeprature, humidity and noise and transmits this microclimate Kiez-based data via it's own LoRa mesh to a web-based info portal, where informations are accessible to the public.
 
 
 <img width="1000" alt="Kiezbox_Core_TSB" style="align:center" src="https://github.com/user-attachments/assets/e85f490a-3828-4634-a160-9f082cdefddf">
