@@ -6,64 +6,47 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# {repo-template}
+# Kiezbox 2.0
 
-## TODO (after you generated the repo)
+The "Kiezbox 2.0" is a pilot project under the "Gemeinsam Digital: Berlin" strategy, aiming to prototype an alternative, self-sufficient communication network for crisis situations. The _Kiezbox Core_ module differntiates in two modes:
+- In **emergency mode**, when electricity fails, _the Kiezbox Core_ creates an independent emergency Wi-Fi network using multiple Kiezbox Cores in a mesh network that allows citizens to communicate with critical infrastructure operators, such as sending text-based emergency messages to a nearby fire department.
+- In **normal mode**, the _Kiezbox Core_ uses an additional _sensor module_ to collect environmental data such as temeprature, humidity and noise and transmits this microclimate Kiez-based data via it's own LoRaWAN mesh to a web-based info portal, where informations are accessible to the public.
 
-- [ ] Review the content of the README.md and adjust to your liking
-- [ ] Read the README.md till the end and adjust the content licensing,
-      logos, etc (I know you stopped at tbd...)
-- [ ] Adjust the file [.github/CODEOWNERS](./.github/CODEOWNERS)
-- [ ] Adjust the files under [.github/ISSUE_TEMPLATE](./.github/ISSUE_TEMPLATE)
-- [ ] If you use staging and main branches use this template for [.github/renovate.json](./.github/renovate.json)
 
-```json
-{
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["github>technologiestiftung/renovate-config"],
-	"baseBranches": ["staging"]
-}
-```
+<img width="1000" alt="Kiezbox_Core_TSB" style="align:center" src="https://github.com/user-attachments/assets/e85f490a-3828-4634-a160-9f082cdefddf">
 
-- [ ] Do you want to honor all kinds of contributions? Use [all-contributors](https://allcontributors.org/)
+
+In addtion to the hardware, two applications will be developed.  This dual functionality ensures both crisis resilience and ongoing data collection for urban planning and public use.
+
+## Related Repositories
+This project is composed of multiple repositories:
+- [Meshtastic Firmware](https://github.com/technologiestiftung/kiezbox-meshtastic-firmware)
+- [Meshtastic Python](https://github.com/technologiestiftung/kiezbox-meshtastic-python)
+- [Meshtastic Protobuf Definitions](https://github.com/technologiestiftung/kiezbox-meshtastic-protobufs)
+- [OpenWRT Config](https://github.com/technologiestiftung/kiezbox2-openwrt-env)
+- [OpenWRT Feed](https://github.com/technologiestiftung/kiezbox2-openwrt-feed)
+- [OpenWRT Files](https://github.com/technologiestiftung/kiezbox2-openwrt-files)
+- [Kiezbox Monitoring Sensors](https://github.com/technologiestiftung/Kiezbox-Sensors-)
+- Emergency Messenger Frontend (coming soon)
+- Normal Mode Infor Portal Frontend (coming soon)
+
+
+## Documentation
+
+You can find the documentation in this repos [Wiki](https://github.com/technologiestiftung/kiezbox/wiki)
+
+## Add contributors
+Do you want to honor all kinds of contributions? Use [all-contributors](https://allcontributors.org/)
 
 ```bash
 npx all-contributors-cli check
 npx all-contributors-cli add ff6347 doc
 ```
-
 You can use it on GitHub just by commenting on PRs and issues:
 
 ```plain
 @all-contributors please add @ff6347 for infrastructure, tests and code
 ```
-
-- [ ] Add your project description
-- [ ] Get fancy shields at https://shields.io
-
-## Prerequisites
-
-tbd...
-
-## Installation
-
-tbd...
-
-## Usage or Deployment
-
-tbd...
-
-## Development
-
-tbd...
-
-## Tests
-
-tbd...
-
-## Contributing
-
-Before you create a pull request, write an issue so we can discuss your changes.
 
 ## Contributors
 
@@ -88,24 +71,22 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/).
 
-Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
-
 ## Credits
 
 <table>
   <tr>
     <td>
-      Made by <a href="https://citylab-berlin.org/de/start/">
-        <br />
-        <br />
-        <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-berlin.svg" />
-      </a>
-    </td>
-    <td>
-      A project by <a href="https://www.technologiestiftung-berlin.de/">
+      Made by  <a href="https://www.technologiestiftung-berlin.de/">
         <br />
         <br />
         <img width="150" src="https://logos.citylab-berlin.org/logo-technologiestiftung-berlin-de.svg" />
+      </a>
+    </td>
+    <td>
+      A project by <a href="https://citylab-berlin.org/de/start/">
+        <br />
+        <br />
+        <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-berlin.svg" />
       </a>
     </td>
     <td>
@@ -117,5 +98,3 @@ Illustrations by {MARIA_MUSTERFRAU}, all rights reserved.
     </td>
   </tr>
 </table>
-
-## Related Projects
