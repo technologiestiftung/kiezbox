@@ -20,11 +20,11 @@ In addtion to the hardware, two applications will be developed.  This dual funct
 ## Related Repositories
 This project is composed of multiple repositories:
 - [Meshtastic Firmware](https://github.com/technologiestiftung/kiezbox-meshtastic-firmware)
-- [Meshtastic Python](https://github.com/technologiestiftung/kiezbox-meshtastic-python)
+- [Meshtastic Python Client](https://github.com/technologiestiftung/kiezbox-meshtastic-python)
 - [Meshtastic Protobuf Definitions](https://github.com/technologiestiftung/kiezbox-meshtastic-protobufs)
-- [OpenWRT Config](https://github.com/technologiestiftung/kiezbox2-openwrt-env)
-- [OpenWRT Feed](https://github.com/technologiestiftung/kiezbox2-openwrt-feed)
-- [OpenWRT Files](https://github.com/technologiestiftung/kiezbox2-openwrt-files)
+- [OpenWrt Config](https://github.com/technologiestiftung/kiezbox-openwrt-env)
+- [OpenWrt Feed](https://github.com/technologiestiftung/kiezbox-openwrt-feed)
+- [OpenWrt Files](https://github.com/technologiestiftung/kiezbox-openwrt-files)
 - [Kiezbox Monitoring Sensors](https://github.com/technologiestiftung/Kiezbox-Sensors-)
 - Emergency Messenger Frontend (coming soon)
 - Normal Mode Infor Portal Frontend (coming soon)
