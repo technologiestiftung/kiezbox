@@ -56,6 +56,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JTaIoT"><img src="https://avatars.githubusercontent.com/u/114985716?v=4?s=64" width="64px;" alt="JTaIoT"/><br /><sub><b>JTaIoT</b></sub></a><br /><a href="#infra-JTaIoT" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/technologiestiftung/kiezbox/commits?author=JTaIoT" title="Code">💻</a> <a href="https://github.com/technologiestiftung/kiezbox/commits?author=JTaIoT" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/james-knippes"><img src="https://avatars.githubusercontent.com/u/30473830?v=4?s=64" width="64px;" alt="helican"/><br /><sub><b>helican</b></sub></a><br /><a href="#infra-james-knippes" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/technologiestiftung/kiezbox/commits?author=james-knippes" title="Code">💻</a> <a href="https://github.com/technologiestiftung/kiezbox/commits?author=james-knippes" title="Documentation">📖</a></td>
     </tr>
   </tbody>

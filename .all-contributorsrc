@@ -11,6 +11,16 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "JTaIoT",
+      "name": "JTaIoT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114985716?v=4",
+      "profile": "https://github.com/JTaIoT",
+      "contributions": [
+        "infra",
+        "code",
+        "doc"
+    },
+    {
       "login": "james-knippes",
       "name": "helican",
       "avatar_url": "https://avatars.githubusercontent.com/u/30473830?v=4",
@@ -19,6 +29,7 @@
         "infra",
         "code",
         "doc"
+      }
       ]
     }
   ],
