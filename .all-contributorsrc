@@ -1,5 +1,5 @@
 {
-  "projectName": "template-default",
+  "projectName": "kiezbox",
   "projectOwner": "technologiestiftung",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -10,7 +10,19 @@
   "commit": true,
   "commitConvention": "angular",
   "contributors": [
+    {
+      "login": "JTaIoT",
+      "name": "JTaIoT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114985716?v=4",
+      "profile": "https://github.com/JTaIoT",
+      "contributions": [
+        "infra",
+        "code",
+        "doc"
+      ]
+    }
   ],
   "contributorsPerLine": 7,
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs"
 }
