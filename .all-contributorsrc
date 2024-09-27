@@ -1,5 +1,5 @@
 {
-  "projectName": "template-default",
+  "projectName": "kiezbox",
   "projectOwner": "technologiestiftung",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -10,7 +10,17 @@
   "commit": true,
   "commitConvention": "angular",
   "contributors": [
+    {
+      "login": "julizet",
+      "name": "Julia Zet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52455010?v=4",
+      "profile": "https://github.com/julizet",
+      "contributions": [
+        "doc"
+      ]
+    }
   ],
   "contributorsPerLine": 7,
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs"
 }
