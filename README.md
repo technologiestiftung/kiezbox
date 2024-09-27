@@ -87,17 +87,10 @@ Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3
       </a>
     </td>
     <td>
-      A project by <a href="https://citylab-berlin.org/de/start/">
+      Supported by <a href="https://www.berlin.de/">
         <br />
         <br />
-        <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-berlin.svg" />
-      </a>
-    </td>
-    <td>
-      Supported by <a href="https://www.berlin.de/rbmskzl/">
-        <br />
-        <br />
-        <img width="80" src="https://logos.citylab-berlin.org/logo-berlin-senatskanzelei-de.svg" />
+        <img width="150" src="https://logos.citylab-berlin.org/logo-berlin.svg" />
       </a>
     </td>
   </tr>
