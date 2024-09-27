@@ -11,27 +11,26 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "julizet",
+      "name": "Julia Zet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52455010?v=4",
+      "profile": "https://github.com/julizet",
+      "contributions": ["doc"]
+    },
+    {
       "login": "JTaIoT",
       "name": "JTaIoT",
       "avatar_url": "https://avatars.githubusercontent.com/u/114985716?v=4",
       "profile": "https://github.com/JTaIoT",
-      "contributions": [
-        "infra",
-        "code",
-        "doc"
+      "contributions": ["infra", "code", "doc"]
     },
     {
       "login": "james-knippes",
       "name": "helican",
       "avatar_url": "https://avatars.githubusercontent.com/u/30473830?v=4",
       "profile": "https://github.com/james-knippes",
-      "contributions": [
-        "infra",
-        "code",
-        "doc"
-      }
-      ]
-    }
+      "contributions": ["infra", "code", "doc"]
+     }
   ],
   "contributorsPerLine": 7,
   "skipCi": true,
