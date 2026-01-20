@@ -24,11 +24,10 @@ This project is composed of multiple repositories:
 - [Meshtastic Protobuf Definitions](https://github.com/technologiestiftung/kiezbox-meshtastic-protobufs)
 - [OpenWrt Config](https://github.com/technologiestiftung/kiezbox-openwrt-env)
 - [OpenWrt Feed](https://github.com/technologiestiftung/kiezbox-openwrt-feed)
-- [OpenWrt Files](https://github.com/technologiestiftung/kiezbox-openwrt-files)
-- [Kiezbox Monitoring Sensors](https://github.com/technologiestiftung/Kiezbox-Sensors-)
-- Emergency Messenger Frontend (coming soon)
-- Normal Mode Infor Portal Frontend (coming soon)
-
+- [OpenWrt Files Template](https://github.com/technologiestiftung/kiezbox-openwrt-files-template)
+- [Gateway Service Application](https://github.com/technologiestiftung/kiezbox-gateway-service)
+- [Hardware and Electronics](https://github.com/technologiestiftung/kiezbox-hardware)
+- [Emergency Application Frontend](https://github.com/technologiestiftung/kiezbox-pwa)
 
 ## Documentation
 
