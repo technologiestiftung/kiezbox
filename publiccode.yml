@@ -1,0 +1,65 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: Kiezbox
+url: 'https://gitlab.opencode.de/berlin/kiezbox/kiezbox'
+landingURL: 'https://www.technologiestiftung-berlin.de/projekte/kiezbox-2'
+softwareType: standalone/iot
+platforms:
+  - web
+  - linux
+developmentStatus: development
+releaseDate: '2025-06-24'
+categories:
+  - voip
+  - data-collection
+  - communications
+  - backup
+maintenance:
+  type: internal
+  contacts:
+    - name: Jan Knittel
+      affiliation: Technologiestiftung Berlin
+      email: jan.knittel@ts.berlin
+    - name: Julia Zimmermann
+      email: julia.zimmermann@ts.berlin
+      affiliation: Technologiestiftung Berlin
+    - name: Jim Thakkolkaran
+      affiliation: Technologiestiftung Berlin
+      email: jim.thakkolkaran@ts.berlin
+legal:
+  mainCopyrightOwner: Technologiestiftung Berlin
+  repoOwner: Technologiestiftung Berlin
+intendedAudience:
+  scope:
+    - local-authorities
+    - emergency-services
+    - environment
+    - infrastructures
+    - society
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - de
+    - gb
+    - fr
+    - it
+    - es
+    - tr
+description:
+  de:
+    genericName: Mesh Network
+    localisedName: Kiezbox
+    documentation: 'https://www.technologiestiftung-berlin.de/projekte/kiezbox-2'
+    longDescription: "Die Kiezbox 2.0 ist eine Pilotmaßnahme der Strategie Gemeinsam Digital: Berlin (GD:B) und zeigt prototypisch, wie ein alternatives stromautarkes Kommunikationsnetz für Krisenfälle aussehen kann.\n\nIn Zeiten von Extremwettersituationen, politisch motivierten Angriffen und erhöhten Katastrophenschutz testet das Modellprojekt das Szanario eines Stromausfalls, um daraus Handlungsempfehlungen für die krisensichere Stadt von morgen abzuleiten.\n\nWas würde im Krisenfall alles nicht funktionieren? Wenn ein starker Sturm zum Beispiel Bäume zum Umfallen bringt und Stromleitungen beschädigt, Menschen verletzt werden und nicht versorgt oder vorgewarnt werden können? Bei lang anhaltendem Stromausfall würden Mobilfunk und andere strombasierte Kommunikationsnetze nicht mehr zuverlässig funktionieren. Der Zugang zu kritischen Infrastrukturen, etwa Notruf und Krisenkommunikation, muss aber vor allem in solchen Extremsituationen gewährleistet sein.\_\_\_\n\nMit der Kiezbox 2.0 soll unter anderem ein Notfall-WLAN bereitstehen, über das Bürger:innen zum Beispiel textbasierte Notrufe an die Feuerwehr absetzen oder krisenrelevante Informationen über datenarme Webseiten abrufen können. Im Regelbetrieb sammeln die Boxen hingegen wichtige Umweltdaten, die die Stadtgesellschaft oder andere städtische Akteur:innen nutzen können.\_\_\n"
+    shortDescription: >-
+      Das Projekt Kiezbox bietet ein Stromautarkes Netzwerk für die
+      Krisenkommunikation
+    features:
+      - Mesh Netzwerk
+      - Notruf
+      - Infoportal
+      - Krisenkommunikation
+softwareVersion: '2.0'
