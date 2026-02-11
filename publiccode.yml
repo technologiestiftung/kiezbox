@@ -40,14 +40,10 @@ intendedAudience:
     - infrastructures
     - society
 localisation:
-  localisationReady: false
+  localisationReady: true
   availableLanguages:
     - de
-    - gb
-    - fr
-    - it
-    - es
-    - tr
+    - en
 description:
   de:
     genericName: Mesh Network
