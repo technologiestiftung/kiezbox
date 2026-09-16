@@ -4,18 +4,19 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-
 # Kiezbox 2.0
 
-The "Kiezbox 2.0" is a pilot project under the "Gemeinsam Digital: Berlin" strategy, aiming to prototype an alternative, self-sufficient communication network for crisis situations. The _Kiezbox Core_ module differntiates in two modes:
-- In **emergency mode**, when electricity fails, _the Kiezbox Core_ creates an independent emergency Wi-Fi network using multiple Kiezbox Cores in a mesh network that allows citizens to communicate with critical infrastructure operators, such as sending text-based emergency messages to a nearby fire department.
-- In **normal mode**, the _Kiezbox Core_ uses an additional _sensor module_ to collect environmental data such as temeprature, humidity and noise and transmits this microclimate Kiez-based data via it's own LoRa mesh to a web-based info portal, where informations are accessible to the public.
-
+"Kiezbox 2.0" is a pilot project developed as part of the "Gemeinsam Digital: Berlin" strategy.
+The main goal of the project is to develop an alternative, self-sufficient communication network
+to provide accessible crisis communication.
+This repository contains general information and an overview of all hardware and software components,
+as well as documentation on the system and component design.
 
 <img width="1000" alt="Kiezbox_Core_TSB" style="align:center" src="https://github.com/user-attachments/assets/e85f490a-3828-4634-a160-9f082cdefddf">
 
-
-In addtion to the hardware, two applications will be developed.  This dual functionality ensures both crisis resilience and ongoing data collection for urban planning and public use.
+For a general overview refer to the [system design wiki page](https://github.com/technologiestiftung/kiezbox/wiki/System-Design)
+The following repositories contain every soft- and hardwarecompoenent.
+<!-- TODO: add information in where to find meta info, such as mounting solutions and location finding tools -->
 
 ## Related Repositories
 This project is composed of multiple repositories:
@@ -31,7 +32,7 @@ This project is composed of multiple repositories:
 
 ## Documentation
 
-You can find the documentation in this repos [Wiki](https://github.com/technologiestiftung/kiezbox/wiki)
+Documentation can be found in the [repository Wiki](https://github.com/technologiestiftung/kiezbox/wiki)
 
 ## Add contributors
 Do you want to honor all kinds of contributions? Use [all-contributors](https://allcontributors.org/)
